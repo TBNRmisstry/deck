@@ -1,0 +1,35 @@
+name: decksmp
+version: '1.0-SNAPSHOT'
+main: me.deck.decksmp.Decksmp
+api-version: '1.21'
+author: Frowsty
+description: Custom card-based abilities for Deck SMP.
+commands:
+  card:
+    description: Give yourself a card
+    usage: /card <name>
+    aliases: [c]
+    permission: op
+  withdraw:
+    description: Withdraw an equipped card
+    usage: /withdraw <slot>
+  cards:
+    description: Open your card GUI
+    usage: /cards
+    permission: op
+  cardinfo:
+    description: View all cards in a showcase GUI
+    usage: /cardgui
+  challenges:
+    description: Open challenges GUI
+    usage: /challenges
+  resetchallenges:
+    description: Reset all your challenges
+    usage: /resetchallenges
+    permission: op
+  toggle:
+    description: Toggle your abilities or features on/off.w
+    usage: /toggle
+  trust:
+    description: Manage your trusted players (add/remove/list)
+    usage: /trust <add|remove|list> [player]
